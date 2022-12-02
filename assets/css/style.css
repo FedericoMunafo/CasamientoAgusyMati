@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url("../img/imagenewseb/4---fondo_Mesa de trabajo 1.jpg"); }
+
+@font-face {
+  font-family: 'Gold Play Black';
+  src: url("../fuentes/GOLDPLAY-BLACK.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Bold';
+  src: url("../fuentes/GOLDPLAY-BOLD.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Light';
+  src: url("../fuentes/GOLDPLAY-LIGHT.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Medium';
+  src: url("../fuentes/GOLDPLAY-MEDIUM.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Regular';
+  src: url("../fuentes/GOLDPLAY-REGULAR.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play SemiBold';
+  src: url("../fuentes/GOLDPLAY-SEMIBOLD.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Gold Play Thin';
+  src: url("../fuentes/GOLDPLAY-THIN.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-family: 'Spray Letters';
+  src: url("../fuentes/SPRAY-LETTERS.TTF") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+.tarjeta {
+  text-align: center;
+  background-image: url("../img/imagenewseb/4---fondo_Mesa de trabajo 1.jpg"); }
+
+.contenedor {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url("../img/fotosCarrousel/WhatsApp Image 2022-12-02 at 16.00.08.jpeg");
+  background-size: cover;
+  background-position: 50%; }
+
+.countdown {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  flex-wrap: wrap; }
+
+.countdown div {
+  display: grid;
+  place-items: center;
+  padding: 30px 10px; }
+
+.counter {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'Spray Letters'; }
+
+.contadorP {
+  display: grid;
+  place-items: center;
+  border: solid 1px #000;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  color: #000;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #ff748c;
+  font-family: "Gold Play Black"; }
+
+span {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: #74ffe7;
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Spray Letters'; }
+
+.confirmacion {
+  font-size: large;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  flex-wrap: wrap;
+  font-family: "Spray Letters"; }
+
+.confirmacionIco {
+  text-align: center;
+  justify-content: center; }
+
+.botonete {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  place-items: center !important; }
+
+.formConfirmacion {
+  display: grid;
+  place-items: center; }
+
+.fotosInsta {
+  background-image: url("../img/imagenewseb/1---instagram.jpg"); }
+
+.insta {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.textoInsta {
+  color: white;
+  text-align: center;
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: bold;
+  font-family: "Gold Play SemiBold"; }
+
+.hashtagInsta {
+  font-size: 10vh;
+  text-align: center;
+  color: white;
+  font-family: "Spray Letters"; }
+
+.btnInsta {
+  display: grid;
+  place-items: center !important;
+  text-align: center;
+  font-family: 'Gold Play Bold';
+  color: white; }
+
+.fotosMusica {
+  background-image: url("../img/imagenewseb/2---musica.jpg"); }
+
+.regalo {
+  background-image: url("../img/imagenewseb/3---regalo.jpg"); }
+
+.neruda {
+  color: white;
+  text-align: center;
+  font-size: large;
+  text-transform: uppercase;
+  text-decoration: bold;
+  font-family: 'Spray Letters';
+  margin-top: 100px; }
+
+.textNeruda {
+  font-family: 'Spray Letters';
+  color: white;
+  text-align: center; }
+
+.regaloTitle {
+  font-family: 'Spray Letters';
+  text-decoration: underline; }
+
+.nuevosBotones {
+  place-items: center;
+  text-align: center;
+  color: white;
+  font-family: "Spray Letters"; }
+
+.btnSpotify {
+  margin-top: 50px;
+  margin-left: 270px; }

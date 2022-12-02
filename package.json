@@ -1,0 +1,21 @@
+{
+  "name": "casamiento",
+  "version": "1.0.0",
+  "description": "Confirmación presencia casamiento e información importante",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/style.scss assets/css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "Federico Soto y Gastón Occhipintti",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedericoMunafo/CasamientoAgusyMati.git"
+  }
+}
