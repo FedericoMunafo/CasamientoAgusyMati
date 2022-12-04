@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url("../img/imagenewseb/4---fondo_Mesa\ de\ trabajo\ 1.jpg");
-    
+    // background-image: url("../img/imagenewseb/fondo2.jpg");
+    background-color: ccb3ff; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #ccb3ff ,  #eee6ff);
+    // background-color: #ccb3ff; 
 }
 $container-max-widths: (
   sm: 540px,
@@ -56,11 +58,16 @@ $container-max-widths: (
     font-weight: normal;
 
   }
+.btnColores{
+    background-color: white !important;
+    border-radius: 20% white;
+}
 
 .tarjeta{
     text-align: center;
-    background-image: url("../img/imagenewseb/4---fondo_Mesa\ de\ trabajo\ 1.jpg");
-    border: 0;
+    // background-image: url("../img/imagenewseb/4---fondo_Mesa\ de\ trabajo\ 1.jpg");
+    background-color: #ccb3ff;
+    border: white solid 1px;
 }
 .tarjetaP{
     color: white;
@@ -91,13 +98,13 @@ $container-max-widths: (
     text-align: center;
     color: white;
     font-size: 40px;
-    font-family: 'Spray Letters';
+    font-family: 'Gold Play Thin';   
     margin-top: 50px;
 }
 .contadorP{
     display: grid;
     place-items: center;
-    border: solid 1px #000;
+    border: solid 1px #ccb3ff;
     height: 100px;
     width: 100px;
     border-radius: 50%;
@@ -172,7 +179,8 @@ span{
     place-items: center !important;
     text-align: center;
     font-family: 'Gold Play Bold';
-    color: white;
+    color: #ccb3ff;
+    
 
 }
 .fotosMusica{
@@ -187,15 +195,22 @@ span{
     color: white;
     text-align: center;
     font-size: large;
-    text-transform: uppercase;
     text-decoration: bold;
     font-family: 'Spray Letters';
     margin-top: 100px;
+}
+.Neruda{
+    font-family: 'Spray Letters';
+    color: white;
 }
 .textNeruda{
     font-family: 'Spray Letters';
     color: white;
     text-align: center;
+}
+.imgNeruda{
+    width: 100%;
+    margin-top: 250px;
 }
 .regaloTitle{
     font-family: 'Spray Letters';
@@ -214,9 +229,28 @@ span{
     margin-left: 100px;
 }
 .headerCasorio{
-   background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
-   min-height: 100vh;
+//    background-image: url("../img/fotosCarrousel/image5.jpeg");
+   min-height: 70vh;
 }
+.regaloP{
+    font-family: "Gold Play Black";
+    color: white;
+}
+.AgusYMati{
+    font-size: 30vh;
+    color: white;
+    font-family: "Spray Letters";
+}
+.carousel-item2 {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
 @media screen and (max-width:514px ) {
     body{
         height: initial;
@@ -224,7 +258,7 @@ span{
         background-size: cover;     
     }
     .headerCasorio{
-        background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
+        // background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
         border: 0;
         min-width: auto;
         background-repeat: round;
