@@ -92,6 +92,7 @@ $container-max-widths: (
     color: white;
     font-size: 40px;
     font-family: 'Spray Letters';
+    margin-top: 50px;
 }
 .contadorP{
     display: grid;
@@ -100,17 +101,17 @@ $container-max-widths: (
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    color:#000;
+    color:rgb(23, 23, 146);
     font-size: 2rem;
     font-weight: bold;
-    background-color: #ff748c;
+    background-color: white;
     font-family: "Gold Play Black";
 }
 span{
     display: block;
     padding: 10px;
     text-align: center;
-    color: #74ffe7;
+    color: white;
     font-size: 1.5rem;
     font-weight: 400;
     font-family: 'Spray Letters';
@@ -219,8 +220,8 @@ span{
 @media screen and (max-width:514px ) {
     body{
         height: initial;
-        background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
-    background-size: cover;     
+        // background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
+        background-size: cover;     
     }
     .headerCasorio{
         background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
