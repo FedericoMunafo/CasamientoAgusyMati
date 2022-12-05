@@ -4,10 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    // background-image: url("../img/imagenewseb/fondo2.jpg");
-    background-color: ccb3ff; /* For browsers that do not support gradients */
+    
+    background-color: ccb3ff; 
     background-image: linear-gradient(to right, #ccb3ff ,  #eee6ff);
-    // background-color: #ccb3ff; 
+    
 }
 $container-max-widths: (
   sm: 540px,
@@ -218,7 +218,8 @@ span{
 }
 .imgNeruda{
     width: 100%;
-    margin-top: 250px;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .regaloTitle{
     font-family: 'Spray Letters';
@@ -285,5 +286,4 @@ span{
         font-size: medium ;
         text-decoration: bolder;
      }
-  
 }

@@ -5,7 +5,6 @@
 
 body {
   background-color: ccb3ff;
-  /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #ccb3ff, #eee6ff); }
 
 @font-face {
@@ -197,7 +196,8 @@ span {
 
 .imgNeruda {
   width: 100%;
-  margin-top: 250px; }
+  margin-top: 200px;
+  margin-bottom: 200px; }
 
 .regaloTitle {
   font-family: 'Spray Letters';
