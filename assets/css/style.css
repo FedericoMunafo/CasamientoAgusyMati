@@ -44,12 +44,17 @@ body {
 
 .btnColores {
   background-color: white !important;
-  border-radius: 20% white; }
+  border: 20% white !important; }
 
 .tarjeta {
   text-align: center;
   background-color: #ccb3ff;
-  border: white solid 1px; }
+  background-image: linear-gradient(to right, #ccb3ff, #eee6ff);
+  border: white solid 1px;
+  border-top-left-radius: 40px 40px;
+  border-top-right-radius: 40px 40px;
+  border-bottom-left-radius: 40px 40px;
+  border-bottom-right-radius: 40px 40px; }
 
 .tarjetaP {
   color: white; }
@@ -160,7 +165,10 @@ span {
   place-items: center !important;
   text-align: center;
   font-family: 'Gold Play Bold';
-  color: #ccb3ff; }
+  color: #ccb3ff;
+  border: #eee6ff;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .fotosMusica {
   background-image: url("../img/imagenewseb/2---musica.jpg");
@@ -207,7 +215,8 @@ span {
   margin-left: 100px; }
 
 .headerCasorio {
-  min-height: 70vh; }
+  min-height: 70vh;
+  margin-top: 100px; }
 
 .regaloP {
   font-family: "Gold Play Black";
@@ -227,6 +236,13 @@ span {
   -o-background-size: cover;
   background-size: cover; }
 
+.nsCasmText {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  font-family: 'Gold Play Thin';
+  margin-top: 50px; }
+
 @media screen and (max-width: 514px) {
   body {
     height: initial;
@@ -234,4 +250,7 @@ span {
   .headerCasorio {
     border: 0;
     min-width: auto;
-    background-repeat: round; } }
+    background-repeat: round; }
+  .nsCasmText {
+    font-size: medium;
+    text-decoration: bolder; } }

@@ -60,14 +60,21 @@ $container-max-widths: (
   }
 .btnColores{
     background-color: white !important;
-    border-radius: 20% white;
+    border: 20% white !important;
+    
 }
 
 .tarjeta{
     text-align: center;
     // background-image: url("../img/imagenewseb/4---fondo_Mesa\ de\ trabajo\ 1.jpg");
     background-color: #ccb3ff;
+    background-image: linear-gradient(to right, #ccb3ff ,  #eee6ff);
     border: white solid 1px;
+    border-top-left-radius: 40px 40px;
+    border-top-right-radius: 40px 40px;
+    border-bottom-left-radius: 40px 40px;
+    border-bottom-right-radius: 40px 40px;
+    
 }
 .tarjetaP{
     color: white;
@@ -180,8 +187,9 @@ span{
     text-align: center;
     font-family: 'Gold Play Bold';
     color: #ccb3ff;
-    
-
+    border: #eee6ff;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 .fotosMusica{
     background-image: url("../img/imagenewseb/2---musica.jpg");
@@ -231,6 +239,7 @@ span{
 .headerCasorio{
 //    background-image: url("../img/fotosCarrousel/image5.jpeg");
    min-height: 70vh;
+   margin-top: 100px;
 }
 .regaloP{
     font-family: "Gold Play Black";
@@ -250,6 +259,14 @@ span{
     -o-background-size: cover;
     background-size: cover;
   }
+.nsCasmText{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Gold Play Thin';   
+    margin-top: 50px;
+}
+
   
 @media screen and (max-width:514px ) {
     body{
@@ -262,6 +279,11 @@ span{
         border: 0;
         min-width: auto;
         background-repeat: round;
+     }
+
+     .nsCasmText{
+        font-size: medium ;
+        text-decoration: bolder;
      }
   
 }
