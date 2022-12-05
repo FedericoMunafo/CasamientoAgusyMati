@@ -66,7 +66,6 @@ $container-max-widths: (
 
 .tarjeta{
     text-align: center;
-    // background-image: url("../img/imagenewseb/4---fondo_Mesa\ de\ trabajo\ 1.jpg");
     background-color: #ccb3ff;
     background-image: linear-gradient(to right, #ccb3ff ,  #eee6ff);
     border: white solid 1px;
@@ -238,7 +237,6 @@ span{
     margin-left: 100px;
 }
 .headerCasorio{
-//    background-image: url("../img/fotosCarrousel/image5.jpeg");
    min-height: 70vh;
    margin-top: 100px;
 }
@@ -272,11 +270,9 @@ span{
 @media screen and (max-width:514px ) {
     body{
         height: initial;
-        // background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
         background-size: cover;     
     }
     .headerCasorio{
-        // background-image: url("../img/fotosCarrousel/WhatsApp\ Image\ 2022-12-02\ at\ 16.00.08.jpeg");
         border: 0;
         min-width: auto;
         background-repeat: round;
