@@ -21,4 +21,6 @@ let interval = setInterval(function(){
     $hours.innerHTML = hours,
     $minutes.innerHTML = minutes;
     $seconds.innerHTML = ('0' + seconds).slice(-2);
+    
 },1000);
+

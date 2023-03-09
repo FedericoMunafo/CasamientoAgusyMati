@@ -58,6 +58,7 @@ $container-max-widths: (
     font-weight: normal;
 
   }
+  
 .btnColores{
     background-color: white !important;
     border: 20% white !important;
@@ -90,7 +91,7 @@ $container-max-widths: (
     
 }
 .countdown{
-    display: flex;
+    display: none !important;
     justify-content: space-evenly;
     width: 50%;
     flex-wrap: wrap;
